@@ -1,39 +1,58 @@
 {
-	"menu": [
-		{
-			"title": "Cesar salad",
-			"price": 12,
-			"url": "https://static.1000.menu/img/content/21458/-salat-cezar-s-kr-salat-cezar-s-krevetkami-s-maionezom_1501173720_1_max.jpg",
-			"category": "salads",
-			"id": 1
-		},
-		{
-			"title": "Pizza Margherita",
-			"price": 10,
-			"url": "https://www.pizzanapoletana.org/struttura/pagine_bicolor/mobile/decalogo_avpn_1.jpg",
-			"category": "pizza",
-			"id": 2
-		},
-		{
-			"title": "Pizza Napoletana",
-			"price": 13,
-			"url": "https://images.unsplash.com/photo-1579751626657-72bc17010498?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80",
-			"category": "pizza",
-			"id": 3
-		},
-		{
-			"title": "Greece salad",
-			"price": 8,
-			"url": "https://assets.epicurious.com/photos/576454fb42e4a5ed66d1df6b/master/pass/greek-salad.jpg",
-			"category": "salads",
-			"id": 4
-		},
-		{
-			"title": "Cowboy Steak",
-			"price": 25,
-			"url": "https://i.cbc.ca/1.4491288.1516208229!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/cowboysteak.jpg",
-			"category": "meat",
-			"id": 5
-		}
-	]
+  "menu": [
+    {
+      "title": "Cesar salad",
+      "price": 12,
+      "url": "https://static.1000.menu/img/content/21458/-salat-cezar-s-kr-salat-cezar-s-krevetkami-s-maionezom_1501173720_1_max.jpg",
+      "category": "salads",
+      "id": 1
+    },
+    {
+      "title": "Pizza Margherita",
+      "price": 10,
+      "url": "https://www.pizzanapoletana.org/struttura/pagine_bicolor/mobile/decalogo_avpn_1.jpg",
+      "category": "pizza",
+      "id": 2
+    },
+    {
+      "title": "Pizza Napoletana",
+      "price": 13,
+      "url": "https://images.unsplash.com/photo-1579751626657-72bc17010498?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80",
+      "category": "pizza",
+      "id": 3
+    },
+    {
+      "title": "Greece salad",
+      "price": 8,
+      "url": "https://assets.epicurious.com/photos/576454fb42e4a5ed66d1df6b/master/pass/greek-salad.jpg",
+      "category": "salads",
+      "id": 4
+    },
+    {
+      "title": "Cowboy Steak",
+      "price": 25,
+      "url": "https://i.cbc.ca/1.4491288.1516208229!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/cowboysteak.jpg",
+      "category": "meat",
+      "id": 5
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "order": [
+        {
+          "id": 2,
+          "qtty": 2
+        },
+        {
+          "id": 3,
+          "qtty": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "order": []
+    }
+  ]
 }
